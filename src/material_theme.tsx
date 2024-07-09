@@ -11,7 +11,13 @@ const theme = createTheme({
             styleOverrides: {
                 root: {
                     backgroundColor: "#333333",
-                    color: "#66a2fb",
+                },
+            },
+        },
+        MuiMenuItem: {
+            styleOverrides: {
+                root: {
+                    color: "#66a2fb !important",
                 },
             },
         },
