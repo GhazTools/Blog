@@ -61,7 +61,7 @@ function CustomCard() {
                         </Typography>
 
                         <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                            Why i wrote this blog and what i learnedf
+                            Why i wrote this blog and what i learned
                         </Typography>
                     </CardContent>
                 </Grid>
