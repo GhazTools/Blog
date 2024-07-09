@@ -34,7 +34,7 @@ function CustomCard() {
                     marginTop: "20px",
                     transition: "0.3s",
                     "&:hover": {
-                        transform: "scale(1.03)", // Slightly scale up the card
+                        transform: "scale(1.02)", // Slightly scale up the card
                         boxShadow: "0 4px 20px 0 rgba(0,0,0,0.12)", // Increase box-shadow
                     },
                 }}
