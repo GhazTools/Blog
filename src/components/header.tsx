@@ -149,8 +149,8 @@ function Header() {
                     <Box
                         sx={{
                             flexGrow: 1,
-                            display: { xs: "none", md: "flex" },
-                            color: "#333333",
+                            display: { md: "flex", xs: "none" },
+                            justifyContent: "center",
                         }}
                     >
                         {pages.map((page) => (
