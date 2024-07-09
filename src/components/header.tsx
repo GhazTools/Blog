@@ -20,7 +20,6 @@ const pages: iPage[] = [
     { name: "Blog", path: "/" },
     { name: "About", path: "/about" },
 ];
-// const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 function Header() {
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(

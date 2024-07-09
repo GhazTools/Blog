@@ -6,6 +6,16 @@ const theme = createTheme({
             main: "#66a2fb",
         },
     },
+    components: {
+        MuiList: {
+            styleOverrides: {
+                root: {
+                    backgroundColor: "#333333",
+                    color: "#66a2fb",
+                },
+            },
+        },
+    },
 });
 
 export default theme;
