@@ -21,7 +21,7 @@ function BlogList() {
     return (
         <>
             <MarkdownProcessor markdown="# This blog is currently in development :), so the links do not work" />
-            <Grid container spacing={2}>
+            <Grid container spacing={2} marginTop={"20px"}>
                 {" "}
                 <CustomCard />
                 <CustomCard />

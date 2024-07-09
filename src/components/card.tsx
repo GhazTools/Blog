@@ -7,7 +7,7 @@ import Grid from "@mui/material/Grid"; // Step 1: Import Grid
 import Typography from "@mui/material/Typography";
 
 import { CardMedia } from "@mui/material";
-import MarkdownProcessor from "./markdown_processor";
+
 const bull = (
     <Box
         component="span"
@@ -31,7 +31,6 @@ function CustomCard() {
                     minWidth: 400,
                     backgroundColor: "#f0f0f0",
                     padding: "40px",
-                    marginTop: "20px",
                     transition: "0.3s",
                     "&:hover": {
                         transform: "scale(1.02)", // Slightly scale up the card
