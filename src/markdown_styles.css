@@ -1,0 +1,76 @@
+.markdown_text {
+    text-align: left;
+    color: #999999;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.markdown_h1 {
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 26px;
+    padding: 10px;
+}
+
+.markdown_h2 {
+    text-align: left;
+    color: #66a2fb;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.markdown_h3 {
+    text-align: left;
+    color: #e1db6e;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.markdown_italic {
+    color: #FFFFFF;
+    font-style: italic;
+    text-align: left;
+}
+
+.markdown_bold {
+    color: #FFFFFF;
+    font-style: bold;
+    text-align: left;
+}
+
+.markdown_unordered_list {
+    list-style: circle;
+    color: #999999;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.markdown_ordered_list {
+    list-style: decimal;
+    color: #999999;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.markdown_blockquote {
+    color: #1d1f21;
+    text-align: left;
+    margin-left: 15px;
+    border-left: 5px solid #ccc;
+
+}
+
+.markdown_horizontal_rule {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    /* background-image: linear-gradient(to right, #333, #ccc, #333); */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.markdown_link {
+    color: #66a2fb;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #999999;
+}
