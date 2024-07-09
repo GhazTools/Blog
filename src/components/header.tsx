@@ -10,6 +10,8 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import * as React from "react";
 import { Link } from "react-router-dom";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 interface iPage {
     name: string;
@@ -169,6 +171,24 @@ function Header() {
                                 </Button>
                             </Link>
                         ))}
+                    </Box>
+                    <Box sx={{ flexGrow: 0 }}>
+                        <IconButton
+                            href="https://www.linkedin.com/in/GhazanfarShahbaz"
+                            target="_blank"
+                            aria-label="LinkedIn"
+                            sx={{ color: "#333333" }}
+                        >
+                            <LinkedInIcon />
+                        </IconButton>
+                        <IconButton
+                            href="https://github.com/GhazanfarShahbaz"
+                            target="_blank"
+                            aria-label="GitHub"
+                            sx={{ color: "#333333" }}
+                        >
+                            <GitHubIcon />
+                        </IconButton>
                     </Box>
                 </Toolbar>
             </Container>
