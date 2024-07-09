@@ -6,6 +6,8 @@ import Header from "./components/header";
 import MarkdownProcessor from "./components/markdown_processor";
 import theme from "./material_theme";
 import MarkdownRequester from "./components/markdown_requester";
+import BlogList from "./components/blog_list";
+
 import "./styles.css";
 
 function App() {
@@ -19,7 +21,8 @@ function App() {
                             <Route
                                 path="/"
                                 element={
-                                    <MarkdownProcessor markdown="# This blog is currently in development :)" />
+                                    <BlogList />
+                                    // <MarkdownProcessor markdown="# This blog is currently in development :)" />
                                 }
                             />
                             <Route path="/about" element={<AboutPage />} />
