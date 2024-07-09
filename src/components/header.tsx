@@ -12,6 +12,7 @@ import * as React from "react";
 import { Link } from "react-router-dom";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import LanguageIcon from "@mui/icons-material/Language";
 
 interface iPage {
     name: string;
@@ -187,6 +188,14 @@ function Header() {
                             sx={{ color: "#333333" }}
                         >
                             <GitHubIcon />
+                        </IconButton>
+                        <IconButton
+                            href="https://ghaz.dev"
+                            target="_blank"
+                            aria-label="GitHub"
+                            sx={{ color: "#333333" }}
+                        >
+                            <LanguageIcon />
                         </IconButton>
                     </Box>
                 </Toolbar>
