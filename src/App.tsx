@@ -4,6 +4,7 @@ import AboutPage from "./components/about";
 import Header from "./components/header";
 import MarkdownProcessor from "./components/markdown_processor";
 import theme from "./material_theme";
+import Container from "@mui/material/Container";
 import "./styles.css";
 
 function App() {
@@ -12,15 +13,17 @@ function App() {
             <div className="App">
                 <BrowserRouter>
                     <Header />
-                    <Routes>
-                        <Route
-                            path="/"
-                            element={
-                                <MarkdownProcessor markdown="# This blog is currently in development :)" />
-                            }
-                        />
-                        <Route path="/about" element={<AboutPage />} />
-                    </Routes>
+                    <Container maxWidth="xl">
+                        <Routes>
+                            <Route
+                                path="/"
+                                element={
+                                    <MarkdownProcessor markdown="# This blog is currently in development :)" />
+                                }
+                            />
+                            <Route path="/about" element={<AboutPage />} />
+                        </Routes>
+                    </Container>
                 </BrowserRouter>
             </div>
         </ThemeProvider>
