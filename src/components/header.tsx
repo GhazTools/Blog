@@ -192,7 +192,7 @@ function Header() {
                         <IconButton
                             href="https://ghaz.dev"
                             target="_blank"
-                            aria-label="GitHub"
+                            aria-label="Personal Website"
                             sx={{ color: "#333333" }}
                         >
                             <LanguageIcon />
